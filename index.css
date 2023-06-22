@@ -5,7 +5,6 @@
 }
 
 html {
-    max-height: 100dvh !important;
     color: inherit !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +12,6 @@ html {
 }
 
 body {
-    height: 100dvh !important;
     padding-top: 5rem;
     background-color: transparent !important;
 }
@@ -31,8 +29,4 @@ img, picture, svg, video, i {
 .icons {
     text-decoration: none !important;
     color: inherit !important;
-}
-
-.marki {
-    border: 2px solid red;
 }

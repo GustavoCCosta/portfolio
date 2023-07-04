@@ -12,7 +12,3 @@ Atualmente o site está hospeado no [GHPages](https://pages.github.com/) e poder
 - CSS3
 - JavaScript
 - [Bootstrap](https://getbootstrap.com/)
-
-## Design
-
-- Feito no [Figma](https://www.figma.com/), [clique aqui para ver](#).

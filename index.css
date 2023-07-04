@@ -48,7 +48,7 @@ i {
 	color: inherit !important;
 }
 
-.apresentation {
+.presentation {
 	display: flex;
 	flex-direction: column;
 
@@ -68,7 +68,7 @@ i {
 	color: var(--txt-primary-color);
 }
 
-.apresentation>h1 {
+.presentation>h1 {
 	font-size: 6rem;
 	font-weight: 300;
 	flex-wrap: nowrap;
@@ -76,7 +76,7 @@ i {
 
 
 /*TRABALHOS*/
-.timeln{
+.timeln {
 	width: 100%;
 	background-color: var(--bg-gray-color);
 	border-radius: 10px;
@@ -117,8 +117,16 @@ i {
 }
 
 .scroll-container::-webkit-scrollbar-thumb {
-	background-color: #888; /* Cor do indicador */
-	border-radius: 10px; /* Arredondamento do indicador */
+	background-color: #888;
+	/* Cor do indicador */
+	border-radius: 10px;
+	/* Arredondamento do indicador */
 	margin: 10px;
 	padding: 10px;
+}
+
+/*formacao*/
+
+.fix-mt {
+	margin-top: 5rem;
 }

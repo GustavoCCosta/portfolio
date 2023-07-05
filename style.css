@@ -11,6 +11,8 @@
 	--bg-tertiary-color-ligth: #2E64E8;
 	--bg-gray-color: #313235;
 	--txt-primary-color: #FFFF;
+	--bg-primary-color-trans: rgba(20, 26, 51, 0.4);
+	--bg-tertiary-color-trans: rgba(38, 22, 64, 0.4);
 }
 
 * {
@@ -19,10 +21,11 @@
 
 html {
 	color: inherit !important;
+	overflow-x: hidden;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: linear-gradient(60deg, var(--bg-tertiary-color) -30%, var(--bg-primary-color) 100%);
-	overflow-x: hidden;
+	background-image: linear-gradient(60deg, var(--bg-tertiary-color-trans) -30%, var(--bg-primary-color-trans) 100%), url(./src/assets/background-areas.svg);
+	background-size: cover;
 }
 
 body {
@@ -83,8 +86,6 @@ i {
 /*trabalhos*/
 .timeln {
 	width: 100%;
-	margin-top: 20dvh !important;
-	background-color: var(--bg-gray-color);
 	border-radius: 10px;
 	padding-bottom: 10px;
 	margin-top: 5rem;
@@ -93,7 +94,6 @@ i {
 .scroll-container {
 	width: 100%;
 	overflow-x: auto;
-	color: #000;
 	background-color: transparent;
 }
 
@@ -110,7 +110,6 @@ i {
 	padding: 5px;
 	margin: 10px;
 	width: clamp(200px, 20dvw, 600px);
-	background-color: #f0f0f0;
 	border-radius: 10px;
 	text-align: center;
 }
@@ -131,10 +130,25 @@ i {
 	padding: 10px;
 }
 
-/*formacao*/
-
 .fix-mt {
 	margin-top: 5rem;
+}
+/*formacao*/
+
+.fix-mt-lg{
+	margin-top: 20dvh !important;
+}
+
+.bg-fume {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+	border-radius: 10px;
+}
+
+.logo-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /*portfolio*/

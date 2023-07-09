@@ -24,7 +24,7 @@ html {
 	overflow-x: hidden;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: linear-gradient(60deg, var(--bg-tertiary-color-trans) -30%, var(--bg-primary-color-trans) 100%), url(./src/assets/background-areas.svg);
+	background-image: linear-gradient(60deg, var(--bg-tertiary-color-trans) -30%, var(--bg-primary-color-trans) 100%), url("../assets/background-areas.svg");
 	background-size: cover;
 }
 
@@ -62,7 +62,7 @@ i {
 	text-align: center;
 	justify-content: center;
 
-	background: rgba(0, 0, 0, 0.6) url("./src/assets/bg_intro.png");
+	background: rgba(0, 0, 0, 0.6) url("../assets/bg_intro.png");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;

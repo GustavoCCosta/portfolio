@@ -67,6 +67,7 @@ email_form.addEventListener("submit", (e) => {
         console.log(mapList);
     }
     
+    alert("Mensagem enviada!\n"+"Visite a aba mensagens para visualizar");
     //reset forms
     email_form.reset();
 })

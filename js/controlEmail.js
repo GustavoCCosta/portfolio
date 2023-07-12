@@ -39,5 +39,6 @@ showEmails();
 
 clrMsg.addEventListener("click", () => {
     localStorage.removeItem(mapkey);
+    alert("Mensagens apagadas!");
     showEmails();
 });

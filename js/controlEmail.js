@@ -16,7 +16,9 @@ const showEmails = () => {
         pinItem.classList.add("fs-2");
         pinItem.innerText = "Nenhuma Mensagem";
         msgBox.appendChild(pinItem);
+        clrMsg.style.display = 'none';
     } else {
+        clrMsg.style.display = 'inline-block';
         mapList.forEach((valor, chave) => {
             let pinItem = document.createElement("p");
             pinItem.classList.add("fs-2");

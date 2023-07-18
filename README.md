@@ -4,7 +4,7 @@ Este este site tem como objetivo demonstrar as minhas habilidades e o meu portf�
 
 ## Funcionalidades
 
-Atualmente o site está hospeado no [GHPages](https://pages.github.com/) e poderá ser acessado por [aqui](#).
+Atualmente o site está hospeado no [GHPages](https://pages.github.com/) e poderá ser acessado por [aqui](https://gustavoccosta.github.io/portfolio/index.html).
 
 ## Tecnologias utilizadas
 
